@@ -1,0 +1,151 @@
+.top {
+    background-image: url(https://www.kastapp.co/images/gradient-violet-bg.jpg);
+    height: 1150px;
+    width: 100%;
+}
+
+
+.navbar {
+    align-items: right;
+    margin: 5px;
+    padding: 5px;
+    font-family: Roboto, sans-serif;
+    position: fixed;
+    z-index: 1;
+}
+
+.home {
+    height: 90px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.home:hover {
+    height: 120px;
+    width: 230px;
+}
+   
+
+.navbut {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.aboutDropContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.aboutDropContent a {
+    color: #CFD6DC;
+    font-family: Roboto, sans-serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.aboutDropContent a:hover {
+    color:#878B93;
+    text-decoration: underline;
+}
+
+.show {
+    display: block;
+}
+
+.premium {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.premium:hover {
+    text-decoration: underline;
+}
+
+#open {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    cursor: pointer;
+}
+
+.main {
+    align-items: center;
+    position: relative;
+    top: 200px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#orange {
+    background-color: #FE9015;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: transparent;
+    padding: 10px;
+    margin: 10px;
+    height: 45px;
+    width: 180px;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+
+h3 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.feat {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+}
+
+.quote {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.attribution{
+    font-family: Roboto, sans-serif;
+    text-align: right;
+    margin: 50px;
+    padding: 50px;
+}
+
+.teal {
+    background-image: url(https://www.kastapp.co/images/green-bg.jpg);
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
